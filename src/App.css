@@ -1,0 +1,138 @@
+.App {
+  position: relative;
+  text-align: center;
+  left:15%;
+  width: 70%; 
+}
+.main-div {
+  align-items: center;
+  padding-top: 70px;
+  height: 100%;
+}
+.header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+  font-size:small;
+  padding-top:10px;
+}
+
+.linkTagCSS {
+  text-decoration: none;
+  padding: 10px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.image {
+  height: 300px;
+}
+.flex_container {
+  display: flex;
+  justify-content: space-around;
+  /* padding-top: 100px; */
+}
+
+.flex_container >img {
+  width: 10%;
+}
+ 
+.button {
+  height: 30px;
+  width: 80px;
+  color: white;
+  background-color: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+p {
+  padding: 10px;
+  color:grey;
+  text-align: left; 
+}
+
+.viewButton {
+  height:50px;
+  width: 40%;
+  color:white; 
+  background-color:blue;
+  border : blue;
+  border-radius:5px
+}
+.toggleViewButton {
+  height:50px;
+  width: 40%;
+  color: rgb(41, 238, 133);
+  color: rgb(240, 241, 241);
+  color:blue; 
+  background-color:lightskyblue;
+  border : lightskyblue;
+  border-radius:5px;
+}
+
+.input_outline {
+  width: 80%;
+  border: none;
+  border-bottom:1px solid black;
+  outline: none;
+}
+.grid_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid_container {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+  }
+  .tags {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .linkTagCSS {
+    padding: 5px;
+  }
+ 
+  .flex_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .viewButton{
+    width: 80%;
+  }
+  .toggleViewButton{
+    width: 80%;
+  }
+  .flex_container >img {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+ 
+}
+
+/* @media only screen and (max_width: 1180px){
+  img {
+    height: 200px;
+  }
+  .flex_container{
+    flex-direction: column;
+    align-items: center;
+  }
+} */
