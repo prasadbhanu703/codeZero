@@ -13,6 +13,7 @@ function App() {
         <Router>
           <Route path="/:page" component={Header} />
           <Route exact path="/" component={Header} /> 
+          <Route exact path="/" component={Landkit} /> 
           <Route exact path="/landkit." component={Landkit} /> 
           <Route exact path="/dataList" component={DataList} />
           <Route exact path="/contactform" component={ContactForm} />

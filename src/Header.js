@@ -13,10 +13,10 @@ const Header = () => {
     );
   };
 
-  return (
+  return (<>
       <div className="header">  
        <div style={{color:"blue",fontSize:"large"}}>   
-        <b><ErrorBoundary> <HeaderLink page="landkit." selected={page === "head"} /> </ErrorBoundary>   </b>
+        <b><ErrorBoundary> <HeaderLink page="landkit." selected={page === "home"} /> </ErrorBoundary>   </b>
        </div>          
        {/* <span style={{margin:"15%"}}> */}
        <div className="tags">
@@ -29,6 +29,7 @@ const Header = () => {
         <button className="button"> Buy now </button>
         </div>
       </div>
+      </>
   );
 };
 
