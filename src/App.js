@@ -5,6 +5,7 @@ import ContactForm from "./ContactForm";
 import Landkit from "./Landkit"
 
 import "./App.css";
+import Account from "./Account";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/landkit." component={Landkit} /> 
           <Route exact path="/dataList" component={DataList} />
           <Route exact path="/contactform" component={ContactForm} />
+          <Route exact path="/account" component={Account} />
         </Router>
     </div>
   );
